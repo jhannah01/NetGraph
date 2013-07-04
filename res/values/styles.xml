@@ -1,0 +1,63 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppBaseTheme" parent="@style/Theme.Green">
+
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    
+    </style>
+
+    <style name="Text.Default" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_default</item>
+    </style>
+    
+    <style name="Text.Label" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_label</item>
+    </style>
+    
+    <style name="Text.Label.Alt" parent="@style/Text.Label">
+        <item name="android:textColor">@color/text_label_alt</item>
+    </style>
+    
+    <style name="Text.Title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_title</item>
+    </style>
+    
+    <style name="Text.Title.Alt" parent="@style/Text.Title">
+        <item name="android:textColor">@color/text_title_alt</item>
+    </style>
+    
+    <style name="Text.SubTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_subtitle</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    
+    <style name="Text.SubTitle.Alt" parent="@style/Text.SubTitle">
+        <item name="android:textColor">@color/text_subtitle_alt</item>
+    </style>
+    
+    <style name="Text.Header" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/text_header</item>
+    </style>
+    
+    <style name="Text.Header.Alt" parent="@style/Text.Header">
+        <item name="android:textColor">@color/text_header_alt</item>
+    </style>
+    
+    <color name="row_divider">#3f050505</color>
+    <color name="text_default">#ff0c0c0c</color>
+    <color name="text_title">#ff1c3800</color>
+    <color name="text_title_alt">#ff283e49</color>
+    <color name="text_subtitle">#ff1f262a</color>
+    <color name="text_subtitle_alt">#ff010315</color>
+    <color name="text_label">#ff2c5473</color>
+    <color name="text_label_alt">#ff39e444</color>
+    <color name="text_header">#ffff7400</color>
+    <color name="text_header_alt">#fffc3f4d</color>
+    <color name="graph_line">#c0437327</color>
+</resources>

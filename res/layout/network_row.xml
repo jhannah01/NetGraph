@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="15dp"
+    android:paddingTop="5dp" >
+
+    <TextView 
+        android:id="@+id/text_network_ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/filler_ssid"
+        android:textAppearance="@style/Text.Title" />
+
+    <TextView
+        android:id="@+id/text_network_bssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_network_ssid"
+        android:layout_below="@+id/text_network_ssid"
+        android:layout_marginLeft="15dp"
+        android:text="@string/filler_bssid"
+        android:textAppearance="@style/Text.SubTitle" />
+
+    <TextView
+        android:id="@+id/label_network_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_network_count"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/text_network_count"
+        android:text="@string/label_count"
+        android:textAppearance="@style/Text.Label" />
+
+    <TextView
+        android:id="@+id/text_network_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/filler_count"
+        android:textAppearance="@style/Text.Default" />
+    
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_toggle_collection"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_start"
+        android:title="@string/action_toggle_collection"/>
+
+    <item
+        android:id="@+id/action_reset"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_reset"
+        android:title="@string/action_reset"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/action_exit"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/action_exit"/>
+</menu>

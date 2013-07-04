@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetGraph</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_toggle_collection">Toggle Collection</string>
+    <string name="action_reset">Reset Data</string>
+    <string name="label_overview">Overview</string>
+    <string name="label_networks">Networks:</string>
+    <string name="filler_count">##</string>
+    <string name="label_readings">Readings:</string>
+    <string name="filler_ssid">mySSID</string>
+    <string name="filler_bssid">0a:b4:33:59:ef:ff</string>
+    <string name="label_count"># of readings:</string>
+</resources>

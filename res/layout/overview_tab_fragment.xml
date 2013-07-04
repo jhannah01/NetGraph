@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lable_overview_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/label_overview"
+        android:textAppearance="@style/Text.Header.Alt" />
+
+    <LinearLayout
+        android:id="@+id/layout_overview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lable_overview_header"
+        android:baselineAligned="false" >
+
+        <ListView
+            android:id="@+id/list_overview_networks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:divider="@color/row_divider"
+            android:dividerHeight="1dp"
+            tools:listitem="@layout/network_row" />
+
+        <LinearLayout
+            android:id="@+id/layout_overview_graphs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+</RelativeLayout>
