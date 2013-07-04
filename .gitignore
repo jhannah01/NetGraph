@@ -33,3 +33,8 @@ old/
 
 # Local files
 local/
+
+# Gradle files
+.gradle/
+gradle-app.setting
+build/
